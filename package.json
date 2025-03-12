@@ -14,7 +14,7 @@
     "@ldapjs/asn1": "^2.0.0",
     "@ldapjs/attribute": "^1.0.0",
     "@ldapjs/change": "^1.0.0",
-    "@ldapjs/controls": "git+https://github.com/anishapant21/controls.git#fixes/password-policy",
+    "@ldapjs/controls": "git+https://github.com/anishapant21/controls.git#fixes/password-policy-crash",
     "@ldapjs/dn": "^1.1.0",
     "@ldapjs/filter": "^2.1.1",
     "@ldapjs/messages": "^1.3.0",
