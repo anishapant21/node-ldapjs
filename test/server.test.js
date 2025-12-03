@@ -546,7 +546,7 @@ ZqidFtVna6eyDMUCj2wBHTr6
     }
 
     const client = tls.connect(tlsOptions, function () {
-      t.ok(client.authorized || !client.authorized, 'TLS connection established')
+      t.ok(client.encrypted, 'TLS connection is encrypted')
       t.ok(client.getProtocol(), 'TLS protocol negotiated')
 
       // Verify protocol version is within our specified range
