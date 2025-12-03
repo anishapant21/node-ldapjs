@@ -53,6 +53,7 @@
     "docs": "node scripts/build-docs.js"
   },
   "pre-commit": [
-    "lint:ci"
+    "lint:ci",
+    "test"
   ]
 }
