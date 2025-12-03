@@ -52,4 +52,8 @@
     "lint:ci": "eslint .",
     "docs": "node scripts/build-docs.js"
   },
+  "pre-commit": [
+    "lint:ci",
+    "test"
+  ]
 }
